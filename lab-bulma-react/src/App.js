@@ -5,6 +5,7 @@ import './Navbar.js'
 import NavBar from './Navbar';
 import FormField from './FormField';
 import CoolButton from './CoolButton';
+import SignUp from './SignUp'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
 
         <CoolButton className="button is-rounded is-medium is-danger">button1</CoolButton>
         <CoolButton className="button is-medium is-success">button2</CoolButton>
+
+        <SignUp />
 
       </div>
     </div>

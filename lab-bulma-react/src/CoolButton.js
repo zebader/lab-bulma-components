@@ -3,7 +3,7 @@ import React from 'react';
 class CoolButton extends React.Component {
   render () {
     return(
-        <button className={this.props.className}>{this.props.children}</button>
+        <button className={this.props.className} type={this.props.type}>{this.props.children}</button>
     )}
   }
 
